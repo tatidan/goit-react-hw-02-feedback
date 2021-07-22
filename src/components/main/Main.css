@@ -1,0 +1,39 @@
+.feedbackOptions {
+  border: 1px solid rgb(119, 73, 172);
+  background-color: rgba(196, 152, 236, 0.25);
+  border-radius: 6px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.sectionTitle {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(119, 73, 172);
+  margin: 60px auto 20px;
+}
+
+.counterControls {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding: 8px;
+  color: rgb(211, 181, 240);
+  background-color: rgb(119, 73, 172);
+}
+button:hover {
+  color: rgb(97, 248, 223);
+  background-color: cadetblue;
+}
+
+.statsList {
+  margin-left: 35%;
+}

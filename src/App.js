@@ -1,11 +1,11 @@
 import React from "react";
+import Main from "./components/main/Main";
 
 const App = () => {
   return (
-    <div>
-      <h2>Hello</h2>
-    </div>
+    <>
+      <Main />
+    </>
   );
 };
-
 export default App;
