@@ -19,7 +19,7 @@ class Main extends Component {
     });
     this.countTotalFeedback();
   };
-  handleNeutralFeedback = () => {
+  handleNeutralFeedback = (e) => {
     this.setState((prevState) => {
       return {
         neutral: prevState.neutral + 1,
