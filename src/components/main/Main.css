@@ -8,7 +8,7 @@
 }
 
 .sectionTitle {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
   color: rgb(119, 73, 172);
@@ -29,11 +29,21 @@ button {
   color: rgb(211, 181, 240);
   background-color: rgb(119, 73, 172);
 }
-button:hover {
+button:hover,
+button:focus {
   color: rgb(97, 248, 223);
   background-color: cadetblue;
 }
 
 .statsList {
   margin-left: 35%;
+}
+
+@media screen and (min-width: 768px) {
+  .feedbackOptions {
+    width: 50%;
+  }
+  .sectionTitle {
+    font-size: 26px;
+  }
 }
