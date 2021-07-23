@@ -1,9 +1,15 @@
 import React from "react";
 import Notification from "./Notification";
 
-const Statistics = () => {
-  const total = this.countTotalFeedback();
-  const posFeedbackPercent = this.countPositiveFeedbackPercentage();
+const Statistics = ({
+  countTotalFeedback,
+  countPositiveFeedbackPercentage,
+  good,
+  neutral,
+  bad,
+}) => {
+  const total = countTotalFeedback();
+  const posFeedbackPercent = countPositiveFeedbackPercentage();
 
   return (
     <>
@@ -11,15 +17,15 @@ const Statistics = () => {
         <ul className="statsList">
           <li className="statsListItem">
             <b>Good: </b>
-            {this.state.good}
+            {good}
           </li>
           <li className="statsListItem">
             <b>Neutral: </b>
-            {this.state.neutral}
+            {neutral}
           </li>
           <li className="statsListItem">
             <b>Bad: </b>
-            {this.state.bad}
+            {bad}
           </li>
           <li className="statsListItem statsSum">
             <b>Total: </b>

@@ -14,27 +14,10 @@ class Main extends Component {
   handleGoodFeedback = (e) => {
     this.setState((prevState) => {
       return {
-        good: prevState.good + 1,
+        [e.target.name]: prevState[e.target.name] + 1,
       };
     });
-    this.countTotalFeedback();
-  };
-  handleNeutralFeedback = (e) => {
-    this.setState((prevState) => {
-      return {
-        neutral: prevState.neutral + 1,
-      };
-    });
-    this.countTotalFeedback();
-  };
-
-  handleBadFeedback = (e) => {
-    this.setState((prevState) => {
-      return {
-        bad: prevState.bad + 1,
-      };
-    });
-    this.countTotalFeedback();
+    // this.countTotalFeedback();
   };
 
   countTotalFeedback = () =>
@@ -57,8 +40,10 @@ class Main extends Component {
             good={this.state.good}
             neutral={this.state.neutral}
             bad={this.state.bad}
-            total={this.countTotalFeedback}
-            positivePercentage={this.countPositiveFeedbackPercentage}
+            countTotalFeedback={this.countTotalFeedback}
+            countPositiveFeedbackPercentage={
+              this.countPositiveFeedbackPercentage
+            }
           />
         </Section>
       </>
