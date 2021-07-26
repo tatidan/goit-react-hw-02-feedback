@@ -1,0 +1,8 @@
+{
+  "en": [{ "name": "good", "title": "Good" }, { "name": "neutral", "title": "Neutral" }, { "name": "bad", "title": "Bad" }],
+  "ru": [
+    { "name": "good", "title": "Отлично" },
+    { "name": "neutral", "title": "Нормально" },
+    { "name": "bad", "title": "Плохо" }
+  ]
+}

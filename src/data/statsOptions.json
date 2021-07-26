@@ -1,0 +1,16 @@
+{
+  "en": [
+    { "name": "good", "title": "Good" },
+    { "name": "neutral", "title": "Neutral" },
+    { "name": "bad", "title": "Bad" },
+    { "name": "total", "title": "Total" },
+    { "name": "feedback", "title": "Positive feedback" }
+  ],
+  "ru": [
+    { "name": "good", "title": "Отлично" },
+    { "name": "neutral", "title": "Нормально" },
+    { "name": "bad", "title": "Плохо" },
+    { "name": "total", "title": "Итого" },
+    { "name": "feedback", "title": "Положительных отзывов" }
+  ]
+}
