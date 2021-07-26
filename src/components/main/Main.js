@@ -33,8 +33,12 @@ class Main extends Component {
     return good + neutral + bad;
   };
 
-  countPositiveFeedbackPercentage = () =>
-    Math.ceil((this.state.good / this.countTotalFeedback()) * 100);
+  countPositiveFeedbackPercentage = () => {
+    const result = Math.ceil(
+      (this.state.good / this.countTotalFeedback()) * 100
+    );
+    return `${result}%`;
+  };
 
   render() {
     return (

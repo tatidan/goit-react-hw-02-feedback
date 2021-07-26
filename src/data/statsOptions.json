@@ -10,7 +10,7 @@
     { "name": "good", "title": "Отлично" },
     { "name": "neutral", "title": "Нормально" },
     { "name": "bad", "title": "Плохо" },
-    { "name": "total", "title": "Итого" },
+    { "name": "total", "title": "Итого отзывов" },
     { "name": "feedback", "title": "Положительных отзывов" }
   ]
 }
